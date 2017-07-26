@@ -97,12 +97,11 @@
 		1E7A6C4B1F2913100005F1D6 /* The Movies Tracker */ = {
 			isa = PBXGroup;
 			children = (
+				1E7A6C7D1F2913330005F1D6 /* Support Files */,
+				1E7A6C7B1F2913210005F1D6 /* Models */,
+				1E7A6C7C1F2913270005F1D6 /* Views */,
+				1E7A6C7A1F2913180005F1D6 /* Controllers */,
 				1E7A6C4C1F2913100005F1D6 /* AppDelegate.swift */,
-				1E7A6C4E1F2913100005F1D6 /* ViewController.swift */,
-				1E7A6C501F2913100005F1D6 /* Main.storyboard */,
-				1E7A6C531F2913100005F1D6 /* Assets.xcassets */,
-				1E7A6C551F2913100005F1D6 /* LaunchScreen.storyboard */,
-				1E7A6C581F2913100005F1D6 /* Info.plist */,
 			);
 			path = "The Movies Tracker";
 			sourceTree = "<group>";
@@ -123,6 +122,39 @@
 				1E7A6C6E1F2913100005F1D6 /* Info.plist */,
 			);
 			path = "The Movies TrackerUITests";
+			sourceTree = "<group>";
+		};
+		1E7A6C7A1F2913180005F1D6 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				1E7A6C4E1F2913100005F1D6 /* ViewController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		1E7A6C7B1F2913210005F1D6 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		1E7A6C7C1F2913270005F1D6 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				1E7A6C501F2913100005F1D6 /* Main.storyboard */,
+				1E7A6C551F2913100005F1D6 /* LaunchScreen.storyboard */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		1E7A6C7D1F2913330005F1D6 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1E7A6C581F2913100005F1D6 /* Info.plist */,
+				1E7A6C531F2913100005F1D6 /* Assets.xcassets */,
+			);
+			name = "Support Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
